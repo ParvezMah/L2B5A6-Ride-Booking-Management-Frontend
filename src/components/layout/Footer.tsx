@@ -10,7 +10,7 @@ export function Footer() {
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                 <Car className="h-5 w-5 text-primary-foreground" />
               </div>
-              <span className="text-xl font-bold text-foreground">RideFlow</span>
+              <span className="text-xl font-bold text-foreground">RideGrip</span>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
               Connecting riders and drivers seamlessly. Experience reliable, safe, and affordable transportation at your
@@ -78,7 +78,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center">
-          <p className="text-muted-foreground">© 2024 RideFlow. All rights reserved.</p>
+          <p className="text-muted-foreground">© 2024 RideGrip. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -60,13 +60,21 @@ export const router = createBrowserRouter([
 
   // Admin Dashboard
   {
-    Component: withAuth(DashboardLayout, role.admin as TRole),
+    Component: withAuth(DashboardLayout, role.superAdmin as TRole),
     path: "/admin",
     children: [
       { index: true, element: <Navigate to="/admin/analytics" /> },
       ...generateRoutes(adminSidebarItems),
     ],
   },
+  // {
+  //   Component: withAuth(DashboardLayout, role.admin as TRole),
+  //   path: "/admin",
+  //   children: [
+  //     { index: true, element: <Navigate to="/admin/analytics" /> },
+  //     ...generateRoutes(adminSidebarItems),
+  //   ],
+  // },
 
   // Rider Dashboard
   {

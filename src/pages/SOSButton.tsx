@@ -3,8 +3,8 @@ import { toast } from "sonner";
 
 const SOSButton: React.FC = () => {
   const [open, setOpen] = useState(false);
-  const phone = "01867418698";
-  const email = "munnamia0200@gmail.com";
+  const phone = "01850598057";
+  const email = "parvezmahmudaa100@gmail.com";
 
   const handleSOS = () => {
     if (!navigator.geolocation) {

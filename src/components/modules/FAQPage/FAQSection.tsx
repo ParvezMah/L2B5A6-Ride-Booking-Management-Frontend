@@ -18,23 +18,23 @@ const faqData: FAQItem[] = [
   // General Questions
   {
     id: 1,
-    question: "What is RideFlow and how does it work?",
+    question: "What is RideGrip and how does it work?",
     answer:
-      "RideFlow is a ride-sharing platform that connects passengers with nearby drivers. Simply open the app, enter your destination, choose your ride type, and get matched with a driver in minutes.",
+      "RideGrip is a ride-sharing platform that connects passengers with nearby drivers. Simply open the app, enter your destination, choose your ride type, and get matched with a driver in minutes.",
     category: "general",
   },
   {
     id: 2,
-    question: "In which cities is RideFlow available?",
+    question: "In which cities is RideGrip available?",
     answer:
-      "RideFlow is currently available in over 50 cities across the country. We're constantly expanding to new locations. Check our app to see if we're available in your area.",
+      "RideGrip is currently available in over 50 cities across the country. We're constantly expanding to new locations. Check our app to see if we're available in your area.",
     category: "general",
   },
   {
     id: 3,
     question: "How do I create an account?",
     answer:
-      "Download the RideFlow app from the App Store or Google Play, tap 'Sign Up', and follow the prompts to create your account using your phone number or email address.",
+      "Download the RideGrip app from the App Store or Google Play, tap 'Sign Up', and follow the prompts to create your account using your phone number or email address.",
     category: "general",
   },
 
@@ -71,7 +71,7 @@ const faqData: FAQItem[] = [
   // Driver Questions
   {
     id: 8,
-    question: "How do I become a RideFlow driver?",
+    question: "How do I become a RideGrip driver?",
     answer:
       "To become a driver, you must be at least 21 years old, have a valid driver's license, vehicle registration, and insurance. Apply through our driver portal and complete the background check and vehicle inspection.",
     category: "driver",

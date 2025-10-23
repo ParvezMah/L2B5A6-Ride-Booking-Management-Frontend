@@ -64,9 +64,9 @@ export function ContactInfo() {
                 <p className="text-muted-foreground">
                   General: 
                   <br />
-                  Support: munnamia0200@gmail.com
+                  Support: parvezmahmudaa100@gmail.com
                   <br />
-                  Business: business@rideflow.com
+                  Business: business@ridegrip.com
                 </p>
               </div>
             </div>
